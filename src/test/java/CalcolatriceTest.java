@@ -13,22 +13,22 @@ public class CalcolatriceTest {
 
     @Test
     public void TestSomma() {
-        Assert.assertEquals("somma corretta", 12, calc.somma(11, 1));
+        Assert.assertEquals("Somma corretta", 12, calc.somma(11, 1));
     }
     @Test
     public void TestMoltiplicazione() {
-        Assert.assertEquals("moltiplicazione corretta", 20, calc.moltiplicazione(10, 2));
+        Assert.assertEquals("Moltiplicazione corretta", 20, calc.moltiplicazione(10, 2));
     }
     @Test
     public void TestSottrazione() {
-        Assert.assertEquals("sottrazione corretta", 10, calc.sottrazione(11, 1));
+        Assert.assertEquals("Sottrazione corretta", 10, calc.sottrazione(11, 1));
     }
     @Test
     public void TestDivisione() {
-        Assert.assertEquals("divisione corretta", 5, calc.divisione(10, 2), 0);
+        Assert.assertEquals("Divisione corretta", 5, calc.divisione(10, 2), 0);
     }
     @Test
     public void TestDivisionePerZero() {
-        Assert.assertEquals("divisione per zero corretta", 0, calc.divisione(10, 0), 0);
+        Assert.assertEquals("Divisione per zero corretta", 0, calc.divisione(10, 0), 0);
     }
 }
